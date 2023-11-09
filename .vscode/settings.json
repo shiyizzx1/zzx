@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        "smi230_driver.h": "c",
+        "i2c.h": "c",
+        "module.h": "c",
+        "*.tcc": "c",
+        "chrono": "c",
+        "random": "c",
+        "streambuf": "c",
+        "type_traits": "c"
+    }
+}
