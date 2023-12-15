@@ -516,7 +516,7 @@ i2c_register_board_info(int busnum, struct i2c_board_info const *info,
  * type of error code that occurred during the transfer, as documented in the
  * Kernel Documentation file Documentation/i2c/fault-codes.rst.
  */
-struct i2c_algorithm {
+struct   i2c_algorithm {
 	/*
 	 * If an adapter algorithm can't do I2C-level access, set master_xfer
 	 * to NULL. If an adapter algorithm can do SMBus access, set
